@@ -1,0 +1,24 @@
+/*config pag*/
+*{
+    margin: 0;
+}
+/*config pag*/
+/*header*/
+#titulo{
+    text-align: center;
+}
+/*header*/
+/*main*/
+#main{
+    text-align: center;
+}
+/*main*/
+/*footer*/
+#footer{
+    background-color: rgb(36, 36, 36);
+    color: aliceblue;
+    text-align: center;
+    position: relative;
+    margin-top: 28.6%;
+}
+/*footer*/
