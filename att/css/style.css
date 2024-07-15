@@ -52,6 +52,14 @@ background-color: black;
 .music:hover{
     color: red;
 }
+.img_joji{
+    border: 3px solid purple;
+    
+}
+.img_joji:hover{
+    border: 3px solid rgb(255, 0, 0);
+    
+}
 /*main*/
 /*footer*/
 #footer{
