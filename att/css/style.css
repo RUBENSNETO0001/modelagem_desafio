@@ -2,15 +2,55 @@
 *{
     margin: 0;
 }
+body{
+    background: url(https://static.wikia.nocookie.net/jojimusic/images/9/98/Photo2020.jpg/revision/latest?cb=20201004161231);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100%;
+}
 /*config pag*/
 /*header*/
 #titulo{
     text-align: center;
+    color: #ffffff;
+    background-color: black;
 }
 /*header*/
 /*main*/
+hr{
+    width: 600px;
+    margin-left:50%;
+    transform: translateX(-50%);
+}
 #main{
     text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+#audi{
+    margin-top: 20px;
+    font-size: 25px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 0, 0);
+}
+.red:hover{
+color: red;
+border: 0.4rem solid rgb(128, 0, 0);
+width: 100px;
+margin-left: 50%;
+transform: translateX(-50%);
+background-color: black;
+}
+.music{
+    background-color: black;
+    width: 500px;
+    margin-left: 50%;
+    transform:translateX(-50%);
+    -webkit-text-stroke-color: purple ;
+    -webkit-text-stroke-width: 1px;
+}
+.music:hover{
+    color: red;
 }
 /*main*/
 /*footer*/
@@ -18,7 +58,8 @@
     background-color: rgb(36, 36, 36);
     color: aliceblue;
     text-align: center;
-    position: relative;
+    position: absolute;
     margin-top: 28.6%;
+    width: 100%;
 }
 /*footer*/
