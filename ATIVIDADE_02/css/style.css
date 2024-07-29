@@ -1,0 +1,16 @@
+#as{
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 6px;
+}
+#img_02{
+    height: 215px;
+}
+#img_03{
+    height: 215px;
+}
+.container{
+    margin-left: 68%;
+    transform: translateX(-68%);
+}
