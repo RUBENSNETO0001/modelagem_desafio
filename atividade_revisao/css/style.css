@@ -1,3 +1,10 @@
+header{
+box-shadow: #EB5757 0px 1px 0px 0px;
+}
+#img_logo{
+    position: relative;
+    margin-left: 12px;
+}
 .container_01{
     display: flex;
 }
@@ -6,4 +13,85 @@
     width: 500px;
     align-items: center;
     justify-content: center;
+    position: relative;
+    left: 36%;
+    transform: translateX(-36%);
 }
+#final_header{
+    position: relative;
+    left: 48%;
+    transform: translateX(-48%);
+    display: flex;
+    align-items: center;
+}
+#btn{
+background-color: #EB5757;
+border: none;
+color: #ffffff;
+border-radius: 50px;
+}
+#a_01{
+    text-decoration: none;
+    color: black;
+}
+.select{
+    color: #EB5757;
+    display: flex;
+    margin-left: 5px;
+}
+.col{
+    display: flex;
+}
+#select_01{
+    height: 24px;
+}
+
+/*main*/
+
+#text{
+    width: 600px;
+    position: absolute;
+    top: 16%;
+    padding: 100px;
+}
+#banner_text{
+font-size: 50px;
+
+}
+#banner_text_color{
+    font-size: 50px;
+    color: #EB5757;
+}
+#banner_text_3{
+    font-size: 12px;
+}
+#btn_02{
+    border-radius: 50px;
+    border: none;
+    background-color: #EB5757;
+    color: #ffffff;
+}
+.btn_2{
+    border-radius: 50px;
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+}
+#img_02{
+position: absolute;
+top: 2%;
+left: 100%;
+transform: translateX(-100%);
+height: 600px;
+}
+/*infeite*/
+#btn_banner_cereja{
+    border: none;
+    border-radius: 50px;
+    background-color: #FEE9DE;
+}
+#img_banner_cereja{
+    height: 12px;
+}
+/*infeite*/
+/*main*/
