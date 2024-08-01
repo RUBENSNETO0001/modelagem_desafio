@@ -1,0 +1,9 @@
+.container_01{
+    display: flex;
+}
+#nav_01{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
