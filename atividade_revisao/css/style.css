@@ -17,6 +17,15 @@ box-shadow: #EB5757 0px 1px 0px 0px;
     left: 36%;
     transform: translateX(-36%);
 }
+#select_01:hover{
+    color: red;
+}
+#a_01:hover{
+    color: red;
+}
+#a_02:hover{
+    color: red;
+}
 #final_header{
     position: relative;
     left: 48%;
@@ -92,6 +101,18 @@ height: 600px;
 }
 #img_banner_cereja{
     height: 12px;
+}
+.img_infeite{
+    position: relative;
+    margin-top: 12px;
+}
+#img_infeite_01{
+    position: absolute;
+    margin-left: 2px;
+}
+#img_infeite_01{
+    position: absolute;
+    margin-left: -0px;
 }
 /*infeite*/
 /*main*/
