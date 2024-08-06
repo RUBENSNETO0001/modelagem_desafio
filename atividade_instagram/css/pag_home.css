@@ -1,0 +1,109 @@
+#navbar {
+    display: ruby-text;
+}
+
+#text_logo_pag {
+    position: relative;
+    margin-top: -12px;
+}
+
+#logo_pag {
+    font-size: 30px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+}
+
+#mensagem_icon {
+    height: 30px;
+    width: 30px;
+}
+/*main*/
+.perfil{
+    border-radius: 100%;
+    height: 130px;
+    width: 130px;
+}
+#mais{
+    position: absolute;
+    left: 92px;
+    top: 170px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+#perfil_nav{
+    width: 180px;
+    height: 180px;
+}
+#publi_name{
+    display: ruby;
+    font-size: 30px ;
+}
+#img_publi{
+    background-color: rgb(114, 114, 114);
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.public_iconss{
+    display: ruby-text;
+}
+.public_icons{
+    height: 50px;
+    width: 50px;
+}
+#coracon{
+    height: 60px;
+    width: 60px; 
+}
+#likes{
+    position: relative;
+    margin-left: 32px;
+    font-style: normal;
+}
+#comenty{
+    position: relative;
+    margin-left: 32px;
+}
+#text_01{
+    max-width: 800px;
+}
+/*footer*/
+#footer{
+    background-color: rgb(19, 19, 19);
+    color: #ffffff;
+    position: relative;
+    height: 252px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+#col_2{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    margin-top: -150px;
+}
+#logo_insta{
+    height: 70px;
+    width: 70px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#text{
+    max-width: 300px;
+}
+#compuny{
+    position: relative;
+    margin-left: 12px;
+    margin-left: 62%;
+    transform: translateX(-50%);
+}
