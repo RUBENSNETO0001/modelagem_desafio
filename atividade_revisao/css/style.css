@@ -23,8 +23,9 @@ box-shadow: #EB5757 0px 1px 0px 0px;
 #a_01:hover{
     color: red;
 }
+
 #a_02:hover{
-    color: red;
+color: red;
 }
 #final_header{
     position: relative;
@@ -60,7 +61,7 @@ border-radius: 50px;
 #text{
     width: 600px;
     position: absolute;
-    top: 16%;
+    top: 7%;
     padding: 100px;
 }
 #banner_text{
@@ -103,16 +104,49 @@ height: 600px;
     height: 12px;
 }
 .img_infeite{
-    position: relative;
+    position: absolute;
     margin-top: 12px;
+    box-shadow: -4px 0px 0px 0px rgb(255, 255, 255);
 }
-#img_infeite_01{
+
+#img_infeite_02{
     position: absolute;
-    margin-left: 2px;
+    margin-left: 25px;
 }
-#img_infeite_01{
+#img_infeite_03{
     position: absolute;
-    margin-left: -0px;
+    margin-left: 45px;
+}
+#enfeite_banner_final{
+    position: relative;
+    margin-left: 92px;
 }
 /*infeite*/
+/*produtos*/
+#textual{
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.text{
+    font-size: 40px;
+}
+
+.fotos_produts{
+    position: relative;
+    margin-top: 60%;
+
+}
+#img_textual{
+    position: relative;
+    margin-top: 50%;
+}
+.col_02{
+    display: table-cell;
+    padding-left: 160px;
+    text-align: center;
+    width: 300px;
+}
 /*main*/
