@@ -247,7 +247,8 @@ header {
 #text_menu_03 {
     font-size: 40px;
 }
-#buttoes{
+
+#buttoes {
     position: absolute;
     text-align: center;
     display: flex;
@@ -257,19 +258,22 @@ header {
     margin-top: -300px;
     transform: translateX(-100%);
 }
-.button_04{
+
+.button_04 {
     background-color: #ffffff;
     width: 78px;
     height: 77px;
     border-radius: 100%;
 }
-.button_04:hover{
+
+.button_04:hover {
     background-color: #EB5757;
     width: 78px;
     height: 77px;
     border-radius: 100%;
     color: #ffffff;
 }
+
 .menu_itens {
     display: flex;
     background-color: #f7f7f7;
@@ -315,7 +319,8 @@ header {
     margin-left: 60%;
     transform: translateX(-50%);
 }
-#img_rolagem{
+
+#img_rolagem {
     position: absolute;
     margin-top: -370px;
     margin-left: 180px;
@@ -334,38 +339,46 @@ header {
     position: relative;
     margin-top: 186px;
 }
-.cliente_nota{
-      align-items: center;
+
+.cliente_nota {
+    align-items: center;
 }
-.culluna{
+
+.culluna {
     position: relative;
-    margin-top: -60px; 
-    margin-left: 70px ;
+    margin-top: -60px;
+    margin-left: 70px;
 }
-#text_clinte{
+
+#text_clinte {
     position: relative;
     margin-top: -12px;
-   
+
     opacity: 80%;
 }
-#text_nota{
+
+#text_nota {
     color: #EB5757;
     font-size: 20px;
 }
-#text_nota02{
+
+#text_nota02 {
     font-size: 40px;
     width: 450px;
 }
-#text_nota03{
-width: 350px;
+
+#text_nota03 {
+    width: 350px;
 }
-#estrelas{
-   position: relative;
-   margin-top: -22px;
-   margin-left: 190px;
-   font-style: normal;
+
+#estrelas {
+    position: relative;
+    margin-top: -22px;
+    margin-left: 190px;
+    font-style: normal;
 }
-#textos_nota{
+
+#textos_nota {
     position: absolute;
     top: 388%;
     left: 83%;
@@ -398,6 +411,7 @@ width: 350px;
     width: 140px;
     height: 60px
 }
+
 /*main*/
 #footer {
     margin-top: 100px;
@@ -418,10 +432,12 @@ width: 350px;
     position: relative;
     margin-left: 12px;
 }
-.img_footer{
+
+.img_footer {
     padding-left: 12px;
 }
-.text_p_footer{
+
+.text_p_footer {
     margin-top: 12px;
 }
 
@@ -453,7 +469,8 @@ width: 350px;
     margin-left: 700px;
     width: 193px;
 }
-#button_3{
+
+#button_3 {
     border-radius: 100px;
     background-color: #ffffff;
 }
