@@ -1,7 +1,7 @@
 .collum{
     background-color: rgb(185, 185, 185);
     width: 300px;
-    height: 1000%;
+    height: 1100%;
 }
 #linha{
     position: relative;
@@ -26,4 +26,9 @@
     margin-left: 20px;
     font-synthesis: weight style small-caps;
   justify-content: center;
+}
+#ceta{
+    height: 40px;
+    position: relative;
+    margin-top: -550px;
 }
