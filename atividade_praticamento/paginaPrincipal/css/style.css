@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+}
+#main{
+    position: absolute;
+    top: 12px;
+    left: 23%;
+    width: 74%;
+}
+.imagem02{
+    height: 200px;
+}
+.card{
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra do card */
+}
+.cartao-button{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    padding: 10px 20px;
+    background-color: #003874;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 29px;
+    margin-left: -30px;
+}
+.grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria colunas responsivas */
+    gap: 10px; /* Espaço entre os cards */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+.titulo-01{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    margin-left: 40px;
+}
+.img{
+    width: 100%;
+    height: 150px; /* Ajuste conforme necessário */
+    object-fit: cover;
+}
+.grid-com{
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cria colunas responsivas */
+    gap: 10px; /* Espaço entre os cards */
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    
+}
+header{
+    margin-left:100px;
+    margin-right: 100px;
+}
+.card-button01 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: orangered;
+    margin-top: 29px;
+}
+.prev{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0px 2px 3px 1px black;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.next{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0px 2px 3px 1px black;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.volta{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0px 2px 3px 1px black;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+.frente{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow: 0px 2px 3px 1px black;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+}
+
+.collum{
+    position: relative;
+    margin-left: -100px;
+    background-color: rgb(185, 185, 185);
+    width: 300px;
+    height: 5%;
+}
+#linha{
+    position: relative;
+    margin-left: 12px;
+}
+#imagem{
+    height: 120px;
+    border-radius: 120px;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.titulo{
+    text-align: center;
+}
+.icons{
+    height: 20px;
+    
+}
+.pastas{
+    position: relative;
+    margin-left: 20px;
+    font-synthesis: weight style small-caps;
+  justify-content: center;
+}

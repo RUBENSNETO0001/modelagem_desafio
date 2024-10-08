@@ -1,0 +1,29 @@
+.collum{
+    background-color: rgb(185, 185, 185);
+    width: 300px;
+    height: 1000%;
+}
+#linha{
+    position: relative;
+    margin-left: 12px;
+}
+#imagem{
+    height: 120px;
+    border-radius: 120px;
+    position: relative;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.titulo{
+    text-align: center;
+}
+.icons{
+    height: 20px;
+    
+}
+.pastas{
+    position: relative;
+    margin-left: 20px;
+    font-synthesis: weight style small-caps;
+  justify-content: center;
+}
