@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+/* header */
+.headerPrimary{
+    display: flex;
+}
+/* link */
+.linkes{
+    display: flex;
+    align-items: center;
+}
+.linkD{
+    text-decoration: none;
+    color: #000000;
+}
+.linkesDiretos{
+        position: absolute;
+        left: 30%;
+        padding-left: 50px
+}
+/* link */
+/* Search */
+.pesquisa{
+
+}
+#Search{
+    width: 500px;
+    height: 30px;
+    border: none;
+    background-color: #dbdbdb;
+    border-radius: 50px;
+    position: relative;
+    transform: translateX(80%);
+}
+#iconLupa{
+    width: 30px;
+    position: absolute;
+    left: 59%;
+    transform: translateX(-59%);
+}
+/* Search */
+/* login e compra */
+.loginComprar{
+    position: relative;
+    left: 55%;
+    transform: translateX(-55%);
+}
+.iconLoginComprar{
+    width: 30px;
+}
+/* login e compra */
+/* header */
