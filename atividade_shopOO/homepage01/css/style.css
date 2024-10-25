@@ -8,65 +8,105 @@
 }
 /* font */
 /* header */
-.headerPrimary {
-    display: flex;
-}
-.logoPrincipal{
-    font-family: 'lemonmilk';
-}
-/* link */
-.linkes {
+.primary{
+    position: relative;
+    margin-left: 15%;
+    background-color: aqua;
+    width: 70%;
     display: flex;
     align-items: center;
-    position: relative;
-    left: 1%;
+    justify-content: space-between;
+    height: 70px;
 }
-
-.linkD {
+/* logo */
+#logo{
+    text-transform: uppercase;
+}
+/* logo */
+/* link */
+.linkD{
     text-decoration: none;
-    color: #000000;
-    padding-left: 10px;
-
+    color: black;
 }
-
-.linkesDiretos {
-    position: relative;
-    left: 1%;
+@media (max-width: 1200px){
+    .linkborder{
+        display: none;
+    }
 }
-
 /* link */
 /* Search */
-
-#Search {
-    width: 500px;
-    height: 30px;
+#Search{
+    position: relative;
+    display: flex;
     border: none;
-    background-color: #dbdbdb;
-    border-radius: 50px;
-    position: relative;
-    top: -5px;
-    transform: translateX(70%);
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    height: 25px;
+    width: 300px;
 }
-
-#iconLupa {
+#iconLupa{
     width: 30px;
-    position: relative;
-    top: 6px;
-    left: -27%;
-    transform: translateX(-30%);
+    position: absolute;
+    top: 21px;
 }
-
+@media(max-width: 800px){
+    .pesquisa{
+       display: none;
+    }
+}
 /* Search */
 /* login e compra */
-.loginComprar {
-    position: relative;
-    left: 40%;
-    transform: translateX(-40%);
-}
-
-.iconLoginComprar {
+.iconLoginComprar{
     width: 30px;
 }
-
+@media(max-width: 800px){
+    .loginComprar{
+        display: none;
+    }
+}
 /* login e compra */
+.menu {
+    display: none; /* Inicialmente oculto */
+}
+
+@media (max-width: 800px) {
+    .menu {
+            display: block;
+            /* Botão visível em telas pequenas */
+        }
+        .itens {
+            position: absolute;
+            margin-top: 9%;
+            margin-left: -39%;
+            display: inline-grid;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        #btnMenu {
+            font-size: 20px;
+        }
+        .linkMenu {
+            text-decoration: none;
+            list-style: lower-roman;
+            position: relative;
+            top: 10px;
+            color: black;
+        }
+        #inputMenu{
+            display: flex;
+            background-color: #ffffff;
+            border: none;
+            border-radius: 12px;
+        }
+        #btnMenu_pesquisa{
+            position: relative;
+            top: 8px;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow:0px 3px 0.3rem 0.1rem rgb(122, 122, 122);
+        }
+}
+
+/* botão */
 /* header */
