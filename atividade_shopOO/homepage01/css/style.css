@@ -111,3 +111,11 @@
 
 /* botão */
 /* header */
+/* main */
+.banner{
+    position: relative;
+    margin-left: 15%;
+    background-color: aqua;
+    width: 70%;
+}
+/* main */
