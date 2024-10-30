@@ -27,6 +27,7 @@
 .linkD{
     text-decoration: none;
     color: black;
+    padding-left: 10px;
 }
 @media (max-width: 1200px){
     .linkborder{
@@ -41,8 +42,8 @@
     border: none;
     background-color: #f1f1f1;
     border-radius: 20px;
-    height: 25px;
-    width: 300px;
+    height: 30px;
+    width: 320px;
 }
 #iconLupa{
     width: 30px;
