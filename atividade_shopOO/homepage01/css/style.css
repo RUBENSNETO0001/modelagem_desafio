@@ -120,4 +120,21 @@
     background-color: rgb(4, 0, 245);
     width: 70%;
 }
+#textobanner_01{
+    font-size: 40px;
+    width: 400px;
+}
+#textobanner_02{
+    width: 360px;
+}
+#btnBanner_01{
+    border-radius: 30px;
+    padding: 15px;
+    background-color: black;
+    color: #ffffff;
+    border: none;
+}
+.numBanner{
+    display: flex;
+}
 /* main */
